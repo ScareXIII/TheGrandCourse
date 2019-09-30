@@ -1,0 +1,224 @@
+body {
+    background-image: url("./Images/MediumBackground.png");
+    margin: 25px 50px;
+}
+.welcomeTitle {
+    display: block;
+    text-align: center;
+}
+.welcomeTitle img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.welcomeImage {
+    display: flex;
+    justify-content: center;
+}
+.welcomeImage button {
+    height: 60px;
+    vertical-align: middle;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 1px dotted white;
+    background-color: rgb(67, 145, 247);
+    padding: 15px 40px;
+    font-size: 25px;
+    color: white;
+}
+.welcomeImage img {
+    padding-left: 25px;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+.heading img {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.heading .links {
+    margin-top: 55px;
+    margin-right: 15px;
+}
+.links a {
+    margin: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(67, 145, 247);
+    border: 1px dotted white;
+    padding: 5px 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.errorimg {
+    display: flex;
+    justify-content: center;
+}
+.StoryBody {
+    display: inline-block;
+    background-color: white;
+    margin-right: 15%;
+    margin-left: 15%;
+    border: 2px solid black;
+    
+}
+.StoryBody h2 {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: sans-serif;
+}
+.StoryBody p {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: sans-serif;
+}
+.news {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 4px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.news h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-right: 110px;
+}
+.news img {
+    padding-right: 50px;
+}
+.PostOne {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 4px solid black;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.PostOne h2 {
+    text-align: center;
+}
+.PostTwo img {
+    float: left;
+    padding: 15px;
+    padding-right: 25px;
+}
+.PostTwo h2 {
+    padding-top: 50px;
+}
+.PostTwo {
+    display: inline-block;
+    border: 4px solid black;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.PostThree {
+    display: inline-block;
+    border: 4px solid black;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.PostThree img {
+    float: right;
+    padding: 15px;
+}
+.PostThree h2 {
+    padding-top: 50px;
+}
+canvas {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 350px;
+    bottom: 0;
+    left: 100px;
+    right: 100px;
+    background-image: url("./Images/MediumBackground.png");
+    border: 10px solid rgb(122, 84, 41);
+}
+.wrapper {
+    background-color: black;
+    width: 512px;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+#instructions {
+    float: left;
+    font-family: sans-serif;
+    color: #ffffff;
+    background-color: rgb(122, 84, 41);
+}
+
+#score {
+    float: right;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    background-color: rgb(122, 84, 41);
+}
+
+.key {
+    color: #aaffdd;
+}
+
+#game-over, #game-over-overlay {
+    margin: auto;
+    width: 512px;
+    height: 480px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    right: 100px;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+}
+
+#game-over-overlay {
+    background-color: black;
+    opacity: .5;
+}
+
+#game-over {
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+
+#game-over h1 {
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+#game-over button {
+    font-size: 1.5em;
+}
+canvas {
+    z-index: -1;
+}
+.meetBody {
+    text-align: center;
+}
+.meetBody h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
