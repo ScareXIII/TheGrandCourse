@@ -113,7 +113,7 @@ body {
     padding-right: 25px;
 }
 .PostTwo h2 {
-    padding-top: 50px;
+    padding-top: 15px;
 }
 .PostTwo {
     display: inline-block;
@@ -142,14 +142,14 @@ body {
     padding: 15px;
 }
 .PostThree h2 {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 canvas {
     display: block;
     margin: auto;
     position: absolute;
-    top: 350px;
-    bottom: 0;
+    top: 450px;
+    bottom: 0px;
     left: 100px;
     right: 100px;
     background-image: url("./Images/MediumBackground.png");
@@ -185,11 +185,11 @@ canvas {
     width: 512px;
     height: 480px;
     position: absolute;
-    top: 350px;
+    top: 450px;
     left: 100px;
     right: 100px;
     bottom: 0;
-    z-index: 1;
+    z-index: 2;
     display: none;
 }
 
@@ -212,13 +212,39 @@ canvas {
 #game-over button {
     font-size: 1.5em;
 }
+
 canvas {
-    z-index: -1;
+    z-index: 1;
 }
+
 .meetBody {
     text-align: center;
 }
+
 .meetBody h2 {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boatDaddy {
+    text-align: center;
+}
+
+.boatSon {
+    display: inline-block;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(122, 84, 41);
+    margin-bottom: 50px;
+    border-radius: 40%;
+}
+.wheel {
+    height: 120px;
+    width: 120px;
+    background-color: rgb(250, 148, 15);
+    float: left;
+    margin-top: 250px;
+    margin-left: 240px;
+    border: 1px solid black;
+    
 }
