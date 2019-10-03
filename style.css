@@ -153,7 +153,7 @@ canvas {
     left: 100px;
     right: 100px;
     background-image: url("./Images/MediumBackground.png");
-    border: 10px solid rgb(122, 84, 41);
+    border: 10px solid rgb(94, 64, 31);
 }
 .wrapper {
     background-color: black;
@@ -218,33 +218,40 @@ canvas {
 }
 
 .meetBody {
-    text-align: center;
-}
-
-.meetBody h2 {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.boatDaddy {
-    text-align: center;
-}
-
-.boatSon {
-    display: inline-block;
-    height: 600px;
+    background-color: rgb(60, 187, 43);
+    border: 7px solid rgb(236, 205, 103);
     width: 100%;
-    background-color: rgb(122, 84, 41);
-    margin-bottom: 50px;
-    border-radius: 40%;
 }
-.wheel {
-    height: 120px;
-    width: 120px;
-    background-color: rgb(250, 148, 15);
+.meetBody h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.meetBody img {
+    border-radius: 10%;
     float: left;
-    margin-top: 250px;
-    margin-left: 240px;
-    border: 1px solid black;
-    
+    padding-left: 50px;
+    padding-right: 50px;
 }
+.whoIs {
+    padding-top: 50px;
+}
+
+.meetBody p {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.brownBox {
+    height: 800px;
+    width: 650px;
+    background-color: rgb(122, 84, 41);
+    margin: auto;
+}
+
+.brownBox img { 
+    padding-top: 525px;
+}
+
